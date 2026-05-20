@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <!-- tailwindcss cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="bg-[#dbefdc] h-[100vh] flex justify-between">
+    <!-- প্রধান নেববার কন্টেইনার (সবকিছু এক লাইনে রাখার জন্য flex এবং দুই পাশে ঠেলে দেওয়ার জন্য justify-between) -->
+<div class="flex items-center justify-between w-full max-w-[1920px] h-[100px] px-8 bg-white shadow-sm ">
+    
+    <!-- বাম পাশের অংশ: লোগো এবং হেডিং -->
+    <div class="flex items-center gap-4">
+        <img src="assets/logo.png" alt="logo" class="w-12 h-12">
+        <h1 class="font-bold font-['Arial_Black'] text-xl md:text-2xl text-gray-800 leading-tight">
+            Emergency <br class="hidden sm:inline"> Service
+        </h1>
+    </div>
+
+    <!-- ডান পাশের অংশ: বাটনগুলো -->
+    <div class="flex items-center gap-3">
+        <button class="btn btn-primary px-4 py-2 rounded-lg font-medium">Primary</button>
+        <button class="btn btn-secondary px-4 py-2 rounded-lg font-medium">Secondary</button>
+        <button class="btn btn-accent px-4 py-2 rounded-lg font-medium">Accent</button>
+    </div>
+
+</div>
+
+</body>
+</html>
